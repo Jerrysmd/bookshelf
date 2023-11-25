@@ -1,0 +1,37 @@
+name: Publish Notion website to GitHub Pages
+
+on:
+  # Manual update only.
+  workflow_dispatch:
+  
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout loconotion
+        uses: actions/checkout@v3
+        with:
+          repository: leoncvlt/loconotion
+          path: loconotion
+      - name: Checkout this repo
+        uses: actions/checkout@v3
+        with:
+          path: pages_repo
+      - name: Download and install chromedriver
+        run: sudo apt install chromium-chromedriver
+      - name: Install Loconotion dependencies
+        run: pip install -r loconotion/requirements.txt
+      - name: Run Loconotion
+        run: |
+          python3 loconotion/loconotion --chromedriver chromedriver "pages_repo/site.toml"
+      - name: Push to GitHub pages
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          GIT_DEPLOY_DIR=../dist/site \
+          GIT_DEPLOY_BRANCH=gh-pages \
+          GIT_DEPLOY_REPO="https://${{ github.token }}@github.com/${{ github.repository }}.git" ./deploy.sh
+        working-directory: pages_repo
