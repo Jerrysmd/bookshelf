@@ -24,7 +24,7 @@ jobs:
       - name: setup-chromedriver
         uses: nanasess/setup-chromedriver@v2.2.1
         with:
-          chromedriver-version: 114.0.5735.90
+          chromedriver-version: 119.0.6045.159
       - name: Install Loconotion dependencies
         run: pip install -r loconotion/requirements.txt
       - name: Run Loconotion
