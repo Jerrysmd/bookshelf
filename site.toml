@@ -45,6 +45,5 @@ theme = "light"
 # a sub-table named after the page url (or part of the url, but careful about
 # not using a string that appears in multiple page urls)
 [pages]
-  # set up pretty slugs and options for the other database pages
-  [pages.c36b33378ab44eaa8a4e0d51acb419cd]
-    slug = "film-gallery"
+  slug = "film-gallery"
+    
