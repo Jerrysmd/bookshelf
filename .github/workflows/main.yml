@@ -23,8 +23,7 @@ jobs:
           path: pages_repo
       - name: Download and install chromedriver
         run: |
-          sudo apt update
-          sudo apt install chromium-chromedriver
+          sudo apt install chromium-chromedriver=114.0.5735.90
       - name: Install Loconotion dependencies
         run: pip install -r loconotion/requirements.txt
       - name: Run Loconotion
