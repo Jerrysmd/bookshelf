@@ -1,8 +1,9 @@
 name: Publish Notion website to GitHub Pages
 
 on:
-  # Manual update only.
   workflow_dispatch:
+  schedule:
+    - cron: "0 1 * * *"
   
 permissions:
   contents: write
