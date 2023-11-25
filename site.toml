@@ -7,7 +7,44 @@
 name = "site"
 
 # This page should be the root of your website. It's important.
-page = "https://jerrysmd.notion.site/c36b33378ab44eaa8a4e0d51acb419cd?v=f866caf0636341839c3ddd977cbb4bfe&pvs=4"
+page = "https://jerrysmd.notion.site/c36b33378ab44eaa8a4e0d51acb419cd"
 
 # optionally apply notion's dark mode, remove the line below to use the default light mode
 theme = "light"
+
+## Global Site Settings ##
+# this [site] table defines override settings for the whole site
+# later on we will see how to define settings for a single page
+[site]
+  ## Custom Fonts ##
+  # you can specify the name of a google font to use on the site - use the font embed name
+  # if in doubt select a style on fonts.google.com and navigate to the "embed" tag to 
+  # check the name under CSS rules
+  # the following table keys controls the font of specific elements:
+  #   site: changes the font for the whole page (apart from code blocks) 
+  #         but the settings below override it
+  #   navbar: site breadcrumbs on the top-left of the page
+  #   title: page title (under the icon)
+  #   h1: heading blocks, and inline databases' titles
+  #   h2: sub-heading blocks
+  #   h3: sub-sub-heading blocks
+  #   body: non-heading text on the page
+  #   code: text inside code blocks
+  [site.fonts]
+  site = 'Nunito'
+  navbar = ''
+  title = 'Montserrat'
+  h1 = 'Montserrat'
+  h2 = 'Montserrat'
+  h3 = 'Montserrat'
+  body = ''
+  code = ''
+
+## Individual Page Settings ##
+# the [pages] table defines override settings for individual pages, by defining 
+# a sub-table named after the page url (or part of the url, but careful about
+# not using a string that appears in multiple page urls)
+[pages]
+  # set up pretty slugs and options for the other database pages
+  [pages.c36b33378ab44eaa8a4e0d51acb419cd]
+    slug = "film-gallery"
