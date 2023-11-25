@@ -21,9 +21,10 @@ jobs:
         uses: actions/checkout@v3
         with:
           path: pages_repo
-      - name: Download and install chromedriver
-        run: |
-          sudo apt install chromium-chromedriver=114.0.5735.90
+      - name: setup-chromedriver
+        uses: nanasess/setup-chromedriver@v2.2.1
+        with:
+          chromedriver-version: 114.0.5735.90
       - name: Install Loconotion dependencies
         run: pip install -r loconotion/requirements.txt
       - name: Run Loconotion
