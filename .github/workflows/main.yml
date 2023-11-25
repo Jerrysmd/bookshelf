@@ -24,9 +24,6 @@ jobs:
       - name: Download and install chromedriver
         run: |
           sudo apt update
-          sudo apt install software-properties-common
-          sudo add-apt-repository ppa:canonical-chromium-builds/stage
-          sudo apt update
           sudo apt install chromium-chromedriver
       - name: Install Loconotion dependencies
         run: pip install -r loconotion/requirements.txt
