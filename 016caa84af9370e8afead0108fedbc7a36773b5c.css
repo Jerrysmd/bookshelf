@@ -910,6 +910,13 @@ input[type=number].input-hide-arrows {
     font-weight: 600;
     line-height: 150%
     }
+.tx-title-22-bold {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.264px;
+    line-height: 26px
+    }
 .radio-button:checked + span:after {
     opacity: 1
     }
