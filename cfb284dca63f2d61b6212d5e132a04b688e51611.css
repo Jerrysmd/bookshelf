@@ -819,8 +819,28 @@ input[type=number].input-hide-arrows {
     border-bottom: 1px solid rgba(55, 53, 47, 0.09);
     margin-bottom: 8px
     }
+body.dark .layout-content-with-divider {
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.094)
+    }
 .layout-editor {
     padding-top: 5px
+    }
+.automation-list-item > * {
+    border-radius: 6px
+    }
+.automation-list-item-narrow > * {
+    border-radius: 0
+    }
+.automation-list-item-narrow:first-child > * {
+    border-start-end-radius: 6px;
+    border-start-start-radius: 6px
+    }
+.automation-list-item-narrow:last-child > * {
+    border-end-end-radius: 6px;
+    border-end-start-radius: 6px
+    }
+.automation-list-item-narrow + .automation-list-item-narrow > * {
+    border-top: none !important
     }
 .tx-body-12-med {
     font-size: 12px;
