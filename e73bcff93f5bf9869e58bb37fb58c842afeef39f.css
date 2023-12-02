@@ -874,6 +874,11 @@ body.dark .layout-content-with-divider {
     font-weight: 500;
     line-height: 16px
     }
+.tx-caption-12-semi {
+    font-size: 12px;
+    font-weight: 590;
+    line-height: 15px
+    }
 .tx-heading-17-med {
     font-size: 17px;
     font-weight: 500;
