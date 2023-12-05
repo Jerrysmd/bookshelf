@@ -825,6 +825,9 @@ body.dark .layout-content-with-divider {
 .layout-editor {
     padding-top: 5px
     }
+.automation-list-item {
+    min-width: 50px
+    }
 .automation-list-item > * {
     border-radius: 6px
     }
