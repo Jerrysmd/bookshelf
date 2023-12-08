@@ -810,7 +810,7 @@ input[type=number].input-hide-arrows {
 .layout-margin-scrollable > * {
     min-width: auto
     }
-.layout-two-column {
+.layout-column {
     display: grid;
     gap: inherit;
     grid-column: content
