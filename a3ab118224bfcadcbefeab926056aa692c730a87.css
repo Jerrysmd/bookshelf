@@ -945,6 +945,12 @@ body.dark .layout-content-with-divider {
     letter-spacing: -0.264px;
     line-height: 26px
     }
+.tx-title-26-bold {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px
+    }
 .radio-button:checked + span:after {
     opacity: 1
     }
