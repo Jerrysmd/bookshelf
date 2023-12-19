@@ -872,6 +872,11 @@ body.dark .layout-content-with-divider {
     font-weight: 590;
     line-height: 18px
     }
+.tx-caption-12-reg {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px
+    }
 .tx-caption-12-med {
     font-size: 12px;
     font-weight: 500;
@@ -939,11 +944,16 @@ body.dark .layout-content-with-divider {
     line-height: 150%
     }
 .tx-title-22-bold {
+    font-weight: 700
+    }
+.tx-title-22-bold, .tx-title-22-semi {
     font-size: 22px;
     font-style: normal;
-    font-weight: 700;
     letter-spacing: -0.264px;
     line-height: 26px
+    }
+.tx-title-22-semi {
+    font-weight: 590
     }
 .tx-title-26-bold {
     font-size: 26px;
