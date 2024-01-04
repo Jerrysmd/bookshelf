@@ -829,7 +829,11 @@ body.dark .layout-content-with-divider {
     min-width: 50px
     }
 .automation-list-item > * {
-    border-radius: 6px
+    border-radius: 6px;
+    width: 100%
+    }
+.automation-list-item:not(.automation-list-item-narrow) {
+    padding-bottom: 8px
     }
 .automation-list-item-narrow > * {
     border-radius: 0
@@ -842,8 +846,30 @@ body.dark .layout-content-with-divider {
     border-end-end-radius: 6px;
     border-end-start-radius: 6px
     }
-.automation-list-item-narrow + .automation-list-item-narrow > * {
-    border-top: none !important
+.automation-list-item-narrow + .automation-list-item-narrow {
+    margin-block-start: -1px
+    }
+.automation-list-item-drag-handle, .automation-list-item-icon {
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: opacity 0.1s ease
+    }
+.automation-list-item-icon {
+    opacity: 1
+    }
+.automation-list-item-drag-handle {
+    cursor: grab;
+    opacity: 0
+    }
+.automation-list-item:hover .automation-list-item-icon {
+    opacity: 0
+    }
+.automation-list-item:hover .automation-list-item-drag-handle {
+    opacity: 1
+    }
+.automation-list-item-drag-handle:active {
+    cursor: grabbing
     }
 .tx-body-12-med {
     font-size: 12px;
