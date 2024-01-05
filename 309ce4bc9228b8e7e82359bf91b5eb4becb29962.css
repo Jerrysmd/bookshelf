@@ -871,6 +871,12 @@ body.dark .layout-content-with-divider {
 .automation-list-item-drag-handle:active {
     cursor: grabbing
     }
+.tx-agate-10-regular {
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.12px;
+    line-height: 13px
+    }
 .tx-body-12-med {
     font-size: 12px;
     font-weight: 500
@@ -882,6 +888,16 @@ body.dark .layout-content-with-divider {
 .tx-body-13-med {
     font-size: 13px;
     font-weight: 510;
+    line-height: 16px
+    }
+.tx-body-13-regular {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px
+    }
+.tx-body-13-semi {
+    font-size: 13px;
+    font-weight: 590;
     line-height: 16px
     }
 .tx-body-14-med {
