@@ -872,10 +872,15 @@ body.dark .layout-content-with-divider {
     cursor: grabbing
     }
 .tx-agate-10-regular {
+    font-weight: 400
+    }
+.tx-agate-10-medium, .tx-agate-10-regular {
     font-size: 10px;
-    font-weight: 400;
     letter-spacing: 0.12px;
     line-height: 13px
+    }
+.tx-agate-10-medium {
+    font-weight: 510
     }
 .tx-body-12-med {
     font-size: 12px;
@@ -986,16 +991,17 @@ body.dark .layout-content-with-divider {
     line-height: 150%
     }
 .tx-title-22-bold {
-    font-weight: 700
+    font-weight: 700;
+    letter-spacing: -0.264px
     }
 .tx-title-22-bold, .tx-title-22-semi {
     font-size: 22px;
     font-style: normal;
-    letter-spacing: -0.264px;
     line-height: 26px
     }
 .tx-title-22-semi {
-    font-weight: 590
+    font-weight: 590;
+    letter-spacing: -0.1px
     }
 .tx-title-26-bold {
     font-size: 26px;
