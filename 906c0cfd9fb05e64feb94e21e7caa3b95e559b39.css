@@ -6,7 +6,7 @@ html, body, #notion-app {
     padding: 0 !important;
     margin: 0 !important
     }
-.notion-help-button, .notion-print-ignore, .notion-overlay-container, .notion-sidebar-container, .notion-presence-container, .notion-topbar, .notion-topbar-export-popup, .notion-selectable-halo, .notion-help-button, .notion-page-controls {
+.notion-ai-button, .notion-help-button, .notion-print-ignore, .notion-overlay-container, .notion-sidebar-container, .notion-presence-container, .notion-topbar, .notion-topbar-export-popup, .notion-selectable-halo, .notion-help-button, .notion-page-controls {
     display: none !important
     }
 .notion-frame {
