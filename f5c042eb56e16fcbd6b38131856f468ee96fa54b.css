@@ -353,16 +353,6 @@ html.notion-front-page body.disable-scroll {
 html.notion-front-page .notion-app-inner {
     height: auto
     }
-@supports (height: -webkit-fill-available) {
-    : root {
-        - -full-viewport-height: -webkit-fill-available
-        }
-    }
-@supports (height: 100dvh) {
-    : root {
-        - -full-viewport-height: 100dvh
-        }
-    }
 [contenteditable]:empty:after {
     content: attr(placeholder)
     }
@@ -390,6 +380,24 @@ html.notion-front-page .notion-app-inner {
     max-height: 620px;
     max-width: 1150px;
     width: calc(100% - 150px)
+    }
+@keyframes snackbar-slide-in-top {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px)
+        } to {
+        opacity: 1;
+        transform: translateY(0)
+        }
+    }
+@keyframes snackbar-slide-in-bottom {
+    0% {
+        opacity: 0;
+        transform: translateY(50px)
+        } to {
+        opacity: 1;
+        transform: translateY(0)
+        }
     }
 .loading-spinner {
     -webkit-animation: rotate 1s linear infinite;
