@@ -892,6 +892,15 @@ body.dark .layout-content-with-divider {
 .in-page-find-selected-highlight-match {
     animation: selectedOutlineScale 0.15s ease-in-out
     }
+@keyframes slideInFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-4px)
+        } to {
+        opacity: 1;
+        transform: translateX(0)
+        }
+    }
 .tx-agate-10-regular {
     font-weight: 400
     }
