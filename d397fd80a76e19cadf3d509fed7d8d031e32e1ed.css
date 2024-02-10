@@ -1311,37 +1311,17 @@ table > tr {
         opacity: 1
         }
     }
-@keyframes welcome-home-fade-in-out {
+@keyframes home-tile-slide-up {
     0% {
-        opacity: 0
-        } 20% {
-        opacity: 1
-        } 80% {
-        opacity: 1;
-        transform: translatey(0)
-        } to {
-        opacity: 0;
-        transform: translatey(-12px)
-        }
-    }
-@keyframes slide-up {
-    0% {
-        transform: translatey(12px)
+        transform: translatey(calc((var(- -depth) + 1) * 24px))
         } to {
         transform: translatey(0)
         }
     }
-.welcome-home-fade-in-and-out {
-    animation-duration: 2.5s;
+.home-tile-fade-up-in {
+    animation-duration: 1.5s;
     animation-fill-mode: both;
-    animation-name: welcome-home-fade-in-out;
-    animation-timing-function: ease-in-out
-    }
-.home-greeting-fade-in {
-    animation-delay: 2s;
-    animation-duration: 0.5s;
-    animation-fill-mode: both;
-    animation-name: slide-up, fadeIn;
+    animation-name: home-tile-slide-up, fadeIn;
     animation-timing-function: ease-in-out
     }
 .front-fadein-slow {
