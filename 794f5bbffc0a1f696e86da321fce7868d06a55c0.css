@@ -343,7 +343,6 @@ html.notion-mobile:not(.notion-front-page) body:not(.notion-disable-webkit-user-
     }
 html.notion-front-page, html.notion-front-page #notion-app, html.notion-front-page body {
     background: #fffefc;
-    height: auto;
     overflow-x: initial;
     overflow-y: initial
     }
