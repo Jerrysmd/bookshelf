@@ -361,6 +361,11 @@ html.notion-front-page .notion-app-inner {
 .token.operator.operator {
     background: transparent
     }
+.highcharts-credits {
+    fill: #f0f;
+    font-family: fantasy;
+    font-size: 1em
+    }
 #box-app-container > div {
     align-items: center;
     background: hsla(0, 0%, 100%, 0.5);
