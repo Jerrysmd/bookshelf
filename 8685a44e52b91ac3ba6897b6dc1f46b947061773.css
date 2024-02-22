@@ -1045,6 +1045,24 @@ body.dark .layout-content-with-divider {
     font-weight: 700;
     line-height: 32px
     }
+.tx-uiheader-17-semi {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 590;
+    line-height: 22px
+    }
+.tx-uititle-26-bold {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px
+    }
+.tx-uiregular-14-semi {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 590;
+    line-height: 18px
+    }
 .radio-button:checked + span:after {
     opacity: 1
     }
