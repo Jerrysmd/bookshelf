@@ -323,6 +323,12 @@ td, th {
 .line-numbers-rows > span:before {
     color: #ccc !important
     }
+.notion-desktop-drag-area {
+    -webkit-app-region: drag
+    }
+.notion-desktop-drag-area [role=button] {
+    -webkit-app-region: no-drag
+    }
 .notion-mobile * {
     -webkit-tap-highlight-color: transparent
     }
