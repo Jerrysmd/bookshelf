@@ -1061,11 +1061,28 @@ body.dark .layout-content-with-divider {
     font-weight: 700;
     line-height: 32px
     }
+.tx-uiregular-14-med {
+    font-weight: 500
+    }
+.tx-uiregular-14-med, .tx-uiregular-14-reg {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 18px
+    }
+.tx-uiregular-14-reg {
+    font-weight: 400
+    }
 .tx-uiregular-14-semi {
     font-size: 14px;
     font-style: normal;
     font-weight: 590;
     line-height: 18px
+    }
+.tx-uismall-12-med {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px
     }
 .radio-button:checked + span:after {
     opacity: 1
