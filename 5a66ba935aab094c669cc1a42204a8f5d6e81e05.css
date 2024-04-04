@@ -592,6 +592,26 @@ html.notion-front-page .notion-app-inner {
     animation-timing-function: ease-in-out;
     opacity: 0.15
     }
+@keyframes shimmer-chart-fade-in-initial {
+    0% {
+        opacity: .5
+        } 40% {
+        opacity: 1
+        } 50% {
+        opacity: 1
+        } 60% {
+        opacity: 1
+        } to {
+        opacity: .5
+        }
+    }
+.notion-shimmer-chart-initial {
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-name: shimmer-chart-fade-in-initial;
+    animation-timing-function: ease-in-out;
+    opacity: 0.5
+    }
 input[type=range] {
     -webkit-appearance: none;
     background: transparent
@@ -1079,10 +1099,15 @@ body.dark .layout-content-with-divider {
     line-height: 18px
     }
 .tx-uismall-12-med {
+    font-weight: 500
+    }
+.tx-uismall-12-med, .tx-uismall-12-reg {
     font-size: 12px;
     font-style: normal;
-    font-weight: 500;
     line-height: 15px
+    }
+.tx-uismall-12-reg {
+    font-weight: 400
     }
 .radio-button:checked + span:after {
     opacity: 1
