@@ -592,25 +592,95 @@ html.notion-front-page .notion-app-inner {
     animation-timing-function: ease-in-out;
     opacity: 0.15
     }
-@keyframes shimmer-chart-fade-in-initial {
+.column-chart-loading svg line {
+    stroke-dasharray: 300 300;
+    stroke-dashoffset: -10;
+    animation: grow 2s cubic-bezier(0.45, 0, 0.55, 1) infinite reverse;
+    animation-delay: 0.2s;
+    opacity: 0.3
+    }
+@keyframes grow {
     0% {
-        opacity: .5
-        } 40% {
-        opacity: 1
+        stroke-dasharray: 300 300;
+        stroke-dashoffset: -10;
+        opacity: .3
         } 50% {
-        opacity: 1
-        } 60% {
+        stroke-dasharray: 300 300;
+        stroke-dashoffset: 0;
         opacity: 1
         } to {
-        opacity: .5
+        stroke-dasharray: 300 300;
+        stroke-dashoffset: -10;
+        opacity: .3
         }
     }
-.notion-shimmer-chart-initial {
-    animation-duration: 2.5s;
-    animation-iteration-count: infinite;
-    animation-name: shimmer-chart-fade-in-initial;
-    animation-timing-function: ease-in-out;
-    opacity: 0.5
+.column-chart-loading svg line.column-loader-1 {
+    animation-delay: 0s
+    }
+.column-chart-loading svg line.column-loader-2 {
+    animation-delay: 0.1s
+    }
+.column-chart-loading svg line.column-loader-3 {
+    animation-delay: 0.2s
+    }
+.column-chart-loading svg line.column-loader-4 {
+    animation-delay: 0.3s
+    }
+.column-chart-loading svg line.column-loader-5 {
+    animation-delay: 0.4s
+    }
+.line-chart-loading svg {
+    stroke-dasharray: 0 300;
+    stroke-dashoffset: -150;
+    animation: dash 2.5s linear infinite reverse;
+    opacity: 0.3
+    }
+@keyframes dash {
+    0% {
+        stroke-dasharray: 0 300;
+        stroke-dashoffset: -150;
+        opacity: .3
+        } 50% {
+        stroke-dasharray: 300 300;
+        stroke-dashoffset: 0;
+        opacity: 1
+        } to {
+        stroke-dasharray: 0 300;
+        stroke-dashoffset: 0;
+        opacity: .3
+        }
+    }
+.donut-chart-loading svg circle.outer-loader {
+    animation: pulse-outer 2s cubic-bezier(0.45, 0, 0.55, 1) infinite reverse;
+    opacity: 0.3
+    }
+.donut-chart-loading svg circle.inner-loader {
+    animation: pulse-inner 2s cubic-bezier(0.45, 0, 0.55, 1) 0.5s infinite reverse;
+    opacity: 0.3
+    }
+@keyframes pulse-outer {
+    0% {
+        r: 24;
+        opacity: .3
+        } 50% {
+        r: 25;
+        opacity: .8
+        } to {
+        r: 24;
+        opacity: .3
+        }
+    }
+@keyframes pulse-inner {
+    0% {
+        r: 12;
+        opacity: .3
+        } 50% {
+        r: 14;
+        opacity: .8
+        } to {
+        r: 12;
+        opacity: .3
+        }
     }
 input[type=range] {
     -webkit-appearance: none;
