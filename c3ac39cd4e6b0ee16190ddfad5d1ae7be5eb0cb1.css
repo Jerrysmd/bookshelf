@@ -1133,6 +1133,13 @@ body.dark .layout-content-with-divider {
     font-weight: 590;
     letter-spacing: -0.1px
     }
+.tx-title-24-bold {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.208px;
+    line-height: 28px
+    }
 .tx-title-26-bold {
     font-size: 26px;
     font-style: normal;
