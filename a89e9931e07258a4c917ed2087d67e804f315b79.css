@@ -682,6 +682,9 @@ html.notion-front-page .notion-app-inner {
         opacity: .3
         }
     }
+.highcharts-legend-item > span {
+    max-width: 200px
+    }
 input[type=range] {
     -webkit-appearance: none;
     background: transparent
