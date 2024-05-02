@@ -332,6 +332,10 @@ td, th {
 .notion-mobile * {
     -webkit-tap-highlight-color: transparent
     }
+.notion-subpixel-antialiasing-off * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+    }
 #notion-app, body.notion-body, html.notion-html {
     background-color: transparent;
     height: 100vh;
