@@ -988,8 +988,28 @@ body.dark .layout-content-with-divider {
     0%, to {
         outline: 2px solid #ffcd38
         } 50% {
+        outline-width: 5px
+        }
+    }
+@keyframes pulseBackgroundScaleLight {
+    0%, to {
+        outline: 2px solid rgba(35, 131, 226, .35)
+        } 50% {
+        outline-width: 6px
+        }
+    }
+@keyframes pulseBackgroundScaleDark {
+    0%, to {
+        outline: 2px solid rgba(35, 131, 226, .57)
+        } 50% {
         outline-width: 8px
         }
+    }
+.pulse-highlight-light {
+    animation: pulseBackgroundScaleLight 1s ease-in-out infinite
+    }
+.pulse-highlight-dark {
+    animation: pulseBackgroundScaleDark 1s ease-in-out infinite
     }
 .in-page-find-selected-highlight-match {
     animation: selectedOutlineScale 0.15s ease-in-out
