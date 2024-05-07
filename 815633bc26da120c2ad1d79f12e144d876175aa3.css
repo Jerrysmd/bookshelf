@@ -1147,6 +1147,12 @@ body.dark .layout-content-with-divider {
     font-weight: 600;
     line-height: 150%
     }
+.tx-uititle-medium-20-semibold {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 590;
+    line-height: 25px
+    }
 .tx-title-22-bold {
     font-weight: 700;
     letter-spacing: -0.264px
