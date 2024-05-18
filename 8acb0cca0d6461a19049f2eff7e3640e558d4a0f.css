@@ -271,8 +271,8 @@ td, th {
     color: #fff
     }
 .notion-dark-theme .notion-citation-mention-token {
-    background-color: #787774;
-    color: #2f2f2f
+    background-color: #333;
+    color: #fff
     }
 .notion-citation-mention-token.notion-enable-hover:hover {
     background-color: #2383e2
