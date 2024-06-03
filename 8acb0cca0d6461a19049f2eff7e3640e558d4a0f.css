@@ -1147,12 +1147,6 @@ body.dark .layout-content-with-divider {
     font-weight: 600;
     line-height: 150%
     }
-.tx-page-content-database {
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 120%
-    }
 .tx-uititle-medium-20-semibold {
     font-size: 20px;
     font-style: normal;
@@ -1184,12 +1178,6 @@ body.dark .layout-content-with-divider {
     font-style: normal;
     font-weight: 700;
     line-height: 32px
-    }
-.tx-uimedium-13-semi {
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 590;
-    line-height: 16px
     }
 .tx-uiheader-17-semi {
     font-size: 17px;
