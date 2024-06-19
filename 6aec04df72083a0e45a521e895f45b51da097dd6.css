@@ -1135,6 +1135,13 @@ body.dark .layout-content-with-divider {
     font-weight: 700;
     line-height: 32px
     }
+.tx-uimini-10-semi {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 590;
+    letter-spacing: 0.12px;
+    line-height: 13px
+    }
 .tx-uimedium-13-semi {
     font-size: 13px;
     font-style: normal;
