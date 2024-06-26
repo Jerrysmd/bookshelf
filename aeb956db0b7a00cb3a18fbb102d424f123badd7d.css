@@ -1109,18 +1109,25 @@ body.dark .layout-content-with-divider {
     font-weight: 590;
     line-height: 25px
     }
-.tx-title-22-bold {
-    font-weight: 700;
-    letter-spacing: -0.264px
+.tx-uititle-22-semibold {
+    font-weight: 590;
+    letter-spacing: -0.26px
     }
-.tx-title-22-bold, .tx-title-22-semi {
+.tx-title-22-bold, .tx-uititle-22-semibold {
     font-size: 22px;
     font-style: normal;
     line-height: 26px
     }
+.tx-title-22-bold {
+    font-weight: 700;
+    letter-spacing: -0.264px
+    }
 .tx-title-22-semi {
+    font-size: 22px;
+    font-style: normal;
     font-weight: 590;
-    letter-spacing: -0.1px
+    letter-spacing: -0.1px;
+    line-height: 26px
     }
 .tx-title-24-bold {
     font-size: 24px;
@@ -1142,11 +1149,16 @@ body.dark .layout-content-with-divider {
     letter-spacing: 0.12px;
     line-height: 13px
     }
-.tx-uimedium-13-semi {
+.tx-uimedium-13-reg {
+    font-weight: 400
+    }
+.tx-uimedium-13-reg, .tx-uimedium-13-semi {
     font-size: 13px;
     font-style: normal;
-    font-weight: 590;
     line-height: 16px
+    }
+.tx-uimedium-13-semi {
+    font-weight: 590
     }
 .tx-uiheader-17-semi {
     font-size: 17px;
@@ -1159,6 +1171,13 @@ body.dark .layout-content-with-divider {
     font-style: normal;
     font-weight: 700;
     line-height: 32px
+    }
+.tx-uititle-30-semibold {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    line-height: 36px
     }
 .tx-uiregular-14-med {
     font-weight: 500
