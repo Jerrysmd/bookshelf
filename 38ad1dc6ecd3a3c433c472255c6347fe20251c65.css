@@ -1103,6 +1103,12 @@ body.dark .layout-content-with-divider {
     font-weight: 700;
     line-height: 120%
     }
+.tx-page-content-text-block {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%
+    }
 .tx-uititle-medium-20-semibold {
     font-size: 20px;
     font-style: normal;
