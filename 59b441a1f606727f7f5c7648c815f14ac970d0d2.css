@@ -899,9 +899,6 @@ input[type=number].input-hide-arrows {
     gap: inherit;
     grid-column: content
     }
-.layout-content-with-divider {
-    margin-bottom: 8px
-    }
 body.dark .layout-content-with-divider {
     border-bottom: 1px solid hsla(0, 0%, 100%, 0.094)
     }
