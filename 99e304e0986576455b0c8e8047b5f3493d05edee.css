@@ -1501,6 +1501,7 @@ table > tr {
     scrollbar-width: none
     }
 .hide-scrollbar::-webkit-scrollbar {
+    display: none;
     height: 0 !important;
     width: 0 !important
     }
