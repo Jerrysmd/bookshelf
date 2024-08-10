@@ -853,6 +853,12 @@ input[type=number].input-hide-arrows {
     display: grid;
     width: 100%
     }
+.layout.layout-center-peek {
+    transition: grid-template-columns 0.2s ease-in-out
+    }
+.layout.layout-center-peek-with-layout-panel {
+    transition: grid-template-columns 0.2s ease-in-out
+    }
 .home-content:before {
     content: " ";
     filter: blur(24px);
