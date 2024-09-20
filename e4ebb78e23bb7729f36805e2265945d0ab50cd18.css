@@ -1231,6 +1231,12 @@ body.dark .layout-content-with-divider {
 .tx-uismall-12-reg {
     font-weight: 400
     }
+.tx-uismall-12-semi {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 590;
+    line-height: 16px
+    }
 .radio-button:checked + span:after {
     opacity: 1
     }
