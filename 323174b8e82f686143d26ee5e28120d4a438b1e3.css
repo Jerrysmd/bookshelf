@@ -348,7 +348,16 @@ html.notion-front-page body.disable-scroll {
 html.notion-front-page .notion-app-inner {
     height: auto
     }
-.form-question-title .pseudoAfter[contenteditable]:empty:before, [contenteditable]:empty:after {
+[contenteditable]:empty:after {
+    content: attr(placeholder)
+    }
+[contenteditable] .empty-content-editable-selection-target:before {
+    content: attr(placeholder);
+    left: 0;
+    position: absolute;
+    width: max-content
+    }
+.form-question-title .pseudoAfter[contenteditable]:empty:before {
     content: attr(placeholder)
     }
 #intercom-container {
@@ -1403,6 +1412,9 @@ td.rdtMonth:hover, td.rdtYear:hover {
     }
 * {
     box-sizing: border-box
+    }
+foreignObject > * {
+    isolation: auto
     }
 table > tr {
     vertical-align: top
