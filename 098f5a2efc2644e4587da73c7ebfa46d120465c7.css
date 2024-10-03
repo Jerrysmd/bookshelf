@@ -965,10 +965,10 @@ body.dark .layout-content-with-divider {
     cursor: grab;
     opacity: 0
     }
-.automation-list-item-base-step:not(.automation-list-item-base-step--disabled):hover .automation-list-item-icon {
+.automation-list-item-base-step:not(.automation-list-item-base-step--drag-disabled):hover .automation-list-item-icon {
     opacity: 0
     }
-.automation-list-item-base-step:not(.automation-list-item-base-step--disabled):hover .automation-list-item-drag-handle {
+.automation-list-item-base-step:not(.automation-list-item-base-step--drag-disabled):hover .automation-list-item-drag-handle {
     opacity: 1
     }
 .automation-list-item-drag-handle:active {
