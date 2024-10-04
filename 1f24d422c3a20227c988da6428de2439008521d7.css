@@ -987,6 +987,9 @@ body.dark .layout-content-with-divider {
 .temporary-dictation-annotation {
     opacity: 0.3
     }
+.marketplace-checkout-email-element {
+    pointer-events: none
+    }
 @keyframes slideInFromLeft {
     0% {
         opacity: 0;
