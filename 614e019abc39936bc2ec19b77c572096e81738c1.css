@@ -1184,16 +1184,22 @@ body.dark .layout-content-with-divider {
 .tx-uimedium-13-semi {
     font-weight: 590
     }
-.tx-uiheader-17-semi {
-    font-weight: 590
+.tx-uiheader-17-reg {
+    font-weight: 400
     }
-.tx-uiheader-17-med, .tx-uiheader-17-semi {
+.tx-uiheader-17-reg, .tx-uiheader-17-semi {
     font-size: 17px;
     font-style: normal;
     line-height: 22px
     }
+.tx-uiheader-17-semi {
+    font-weight: 590
+    }
 .tx-uiheader-17-med {
-    font-weight: 510
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 510;
+    line-height: 22px
     }
 .tx-uititle-26-bold {
     font-size: 26px;
